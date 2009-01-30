@@ -32,10 +32,8 @@ beszélgetéseidben.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_prefix}
-
-%{__make} install \
-PREFIX=$RPM_BUILD_ROOT%{_prefix}
+install -d $RPM_BUILD_ROOT%{_libdir}/pidgin
+install LaTeX.so $RPM_BUILD_ROOT%{_libdir}/pidgin
 
 %clean
 rm -rf $RPM_BUILD_ROOT
