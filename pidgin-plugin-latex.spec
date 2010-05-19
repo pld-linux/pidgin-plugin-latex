@@ -2,12 +2,12 @@
 Summary:	A plugin for Pidgin which translates LaTeX code into images in your IM and Chat conversations
 Summary(hu.UTF-8):	Egy Pidgin plugin, amely LaTeX-kódot képekre alakít az IM és Chat beszélgetéseidben
 Name:		pidgin-plugin-latex
-Version:	1.3.3
+Version:	1.3.4
 Release:	0.1
 License:	GPL
 Group:		Applications/Communications
 Source0:	http://dl.sourceforge.net/pidgin-latex/pidgin-latex-%{version}.tar.bz2
-# Source0-md5:	ecd4d0865d8e5b7cbfb54a8e6ada2385
+# Source0-md5:	8b61430fe566b38dda100ef640dee13e
 URL:		http://sourceforge.net/projects/pidgin-latex/
 BuildRequires:	pidgin-devel >= 2.2
 BuildRequires:	pkgconfig
