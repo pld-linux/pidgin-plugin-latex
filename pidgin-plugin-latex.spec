@@ -6,11 +6,12 @@ Version:	1.3.4
 Release:	0.1
 License:	GPL
 Group:		Applications/Communications
-Source0:	http://dl.sourceforge.net/pidgin-latex/pidgin-latex-%{version}.tar.bz2
+Source0:	http://downloads.sourceforge.net/pidgin-latex/pidgin-latex-%{version}.tar.bz2
 # Source0-md5:	8b61430fe566b38dda100ef640dee13e
 URL:		http://sourceforge.net/projects/pidgin-latex/
 BuildRequires:	pidgin-devel >= 2.2
 BuildRequires:	pkgconfig
+Requires:	/usr/bin/dvipng
 Requires:	/usr/bin/latex
 Requires:	ImageMagick
 Requires:	pidgin >= %{pidgin_ver}
